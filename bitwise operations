@@ -1,0 +1,23 @@
+a=int(input('enter number:'))
+b=int(input('enter number:'))
+print(a&b)
+print(a^b)
+print(a|b)
+a=a^b
+b=b^a
+a=a^b
+print(a)
+print(b)
+print(0^a)
+print(0^b)
+
+output:
+enter number:10
+enter number:20
+0
+30
+30
+20
+10
+20
+10
